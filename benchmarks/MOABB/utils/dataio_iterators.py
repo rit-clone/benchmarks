@@ -105,7 +105,7 @@ def get_neighbour_channels(
     return sel_channels
 
 
-def sample_channels(x, adjacency_mtx, ch_names, n_steps, seed_nodes=["Cz"]):
+def sample_channels(x, adjacency_mtx, ch_names, n_steps, seed_nodes=["A1"]):
     """Function that select only selected channels from the input data"""
     sel_channels = get_neighbour_channels(
         adjacency_mtx, ch_names, n_steps=n_steps, seed_nodes=seed_nodes
