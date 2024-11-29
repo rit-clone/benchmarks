@@ -598,11 +598,50 @@ The table presented below illustrates the performance variability (std. dev.) re
 
 For any questions or inquiries, feel free to reach Davide Borra, Ph.D., University of Bologna ([davide.borra2@unibo.it](mailto:davide.borra2@unibo.it)).
 <!-- ############################################################################################################### -->
+
+# 📚  **Related Projects**
+
+| **Project** | 🔗 **Code** | 📄 **Paper** |
+|-------------------------|-------------|--------------|
+| **MOABB**                | [MOABB](https://github.com/NeuroTechX/moabb) | [Paper](https://cnrs.hal.science/hal-04537061/) |
+| **MNE**                  | [MNE](https://mne.tools/stable/index.html) | [Paper](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2013.00267/full) |
+| **BrainDecode**          | [BrainDecode](https://braindecode.org/stable/index.html) | [Paper](https://cnrs.hal.science/hal-04537061/) |
+
+
+
+
 # 📖 Citing
 
-If you use SpeechBrain-MOABB for your research or business, please cite:
+If you use SpeechBrain-MOABB for your research or business, please cite the following papers:
 
-[The link to the official paper will be available soon]
+- [SpeechBrainMOABB](https://www.sciencedirect.com/science/article/pii/S001048252401182X)
+- [SpeechBrainMOABB Protocol](https://www.sciencedirect.com/science/article/pii/S0893608024007718)
+
+For convenience, the BibTeX entries are provided below:
+
+```bibtex
+@article{SpeechBrainMOABB,
+title = {SpeechBrain-MOABB: An open-source Python library for benchmarking deep neural networks applied to EEG signals},
+journal = {Computers in Biology and Medicine},
+volume = {182},
+pages = {109097},
+year = {2024},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2024.109097},
+author = {Davide Borra and Francesco Paissan and Mirco Ravanelli},
+}
+```
+
+```bibtex
+@article{SpeechBrainMOABB_protocol,
+title = {A protocol for trustworthy EEG decoding with neural networks},
+journal = {Neural Networks},
+pages = {106847},
+year = {2024},
+issn = {0893-6080},
+author = {Davide Borra and Elisa Magosso and Mirco Ravanelli}
+}
+```
 
 Please also cite SpeechBrain:
 
